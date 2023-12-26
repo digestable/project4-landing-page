@@ -1,0 +1,881 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: Fraunces;
+    color: black;
+}
+
+
+
+.section1 {
+    margin: 0;
+    padding: 0;
+    background: honeydew;
+    height: auto;
+    min-height: 300px;
+}
+
+.section1 img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    display: block;
+}
+
+/* dnot know why this doesnt show... */
+.navbar {
+    /* position: absolute; */
+    position: absolute;
+    top: 0;
+    background-color: purple;
+    height: auto;
+    width: 100%;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.companyname {
+    position: absolute;
+    top: 0;
+    /* left: 10px; */
+    height: auto;
+    margin: 0;
+    display: flex;
+    /* background-color: cadetblue; */
+    /* background-color: grey; */
+
+}
+
+.companyname li {
+    float: left;
+    /* background-color: brown; */
+    margin-left: 0;
+    padding: 0;
+}
+
+.companyname li a {
+    display: block;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    /* background-color: blue; */
+    /* Fraunces Barlow*/
+    /* font-family: Fraunces; */
+    /* font-family: Barlow; */
+
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    height: auto;
+    margin: 0;
+    display: flex;
+    font-family: Barlow;
+    /* background-color: brown; */
+
+}
+
+.menu li {
+    float: right
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.contact a {
+    background-color: white;
+    height: 100%;
+    border-radius: 15em;
+    color: black !important;
+    height: 200%;
+}
+
+.contact a:hover {
+    background-color: hsl(198, 87%, 70%);
+    height: 100%;
+    border-radius: 15em;
+    color: white !important;
+    height: 200%;
+}
+
+/* - Very dark desaturated blue: hsl(212, 27%, 19%)
+- Very dark grayish blue: hsl(213, 9%, 39%)
+- Dark grayish blue: hsl(232, 10%, 55%)
+- Grayish blue: hsl(210, 4%, 67%) */
+
+/* we are creatives text */
+.s1text {
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    /* background-color: blueviolet; */
+    font-size: 25px;
+    letter-spacing: 0.3em;
+}
+
+.s1arrow {
+    /* background-color: purple; */
+    position: absolute;
+    top: 330px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Transform your brand | egg */
+.section2 {
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.section2a {
+    background-color: white;
+    margin: 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.section2b {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    background-color: hsl(51, 100%, 49%);
+    font-size: 0;
+}
+
+.section2b img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    /* ie8 */
+}
+
+/* Description for egg and cup */
+.eggcupdesc {
+    margin: 0;
+    padding-top: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: left;
+}
+
+.eggcupdesc h5 {
+    margin: 0;
+    padding-top: 20px;
+    max-width: 400px;
+    font-weight: 100px;
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+    color: hsl(212, 27%, 19%);
+}
+
+.eggcupdesc p {
+    font-family: Barlow !important;
+    color: hsl(232, 10%, 55%);
+}
+
+.eggcupdesc h6 {
+    font-weight: 900px;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    color: hsl(212, 27%, 19%);
+    /* margin-bottom: 40px; */
+}
+
+/* .section2 .learnmore{
+    text-decoration: underline hsl(51, 100%, 49%) 5px;
+    
+} */
+
+/* Cup | Stand out to the right audience  */
+.section3 {
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.section3a {
+    background-color: hsl(7, 99%, 70%);
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    font-size: 0;
+}
+
+.section3a img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    /* ie8 */
+}
+
+/* text container */
+.section3b {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.learnmore1 a {
+    /* background-color: aqua; */
+    box-shadow: inset 0 -5px hsl(52, 100%, 83%);
+    color: hsl(212, 27%, 19%);
+}
+
+.learnmore2 a {
+    box-shadow: inset 0 -5px hsl(8, 68%, 79%);
+    color: hsl(212, 27%, 19%);
+}
+
+.learnmore1 a:hover {
+    box-shadow: inset 0 -8px hsl(51, 100%, 49%);
+}
+
+.learnmore2 a:hover {
+    box-shadow: inset 0 -10px hsl(7, 99%, 70%);
+}
+
+/* container - graphic design and photography */
+.section4 {
+    background-color: darkblue;
+    margin: 0;
+    padding: 0;
+    /* padding-bottom: 20px; */
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* container - graphic design  */
+.section4a {
+    position: relative;
+    text-align: center;
+    background-color: hsl(167, 40%, 24%);
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.section4a img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+
+}
+
+/* container - photography  */
+.section4b {
+    position: relative;
+    text-align: center;
+    background-image: url(images/desktop/image-photography.jpg);
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.section4b img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+/* graphic design and photography text */
+
+/* text in the graphic design and photography section */
+
+.section4a .gdptext {
+    color: hsl(167, 40%, 24%);
+}
+
+.section4b .gdptext {
+    color: hsl(198, 62%, 26%);
+}
+
+.gdptext {
+    position: absolute;
+    /* padding: 40px; */
+    padding-bottom: 50px;
+
+    top: 60%;
+    max-width: 420px;
+
+}
+
+.gdptext h4 {
+    font-size: 26px;
+    /* font-family: 'Courier New', Courier, monospace; */
+
+    font-weight: 1000px;
+}
+
+.gdptext p {
+    font-size: 16px;
+    font-weight: 900px;
+    font-family: Barlow !important;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/* Client testamonials */
+.section5 {
+    background-color: white;
+    padding: 30px;
+}
+
+.section5contents {
+    background-color: white;
+    margin: auto;
+
+}
+
+.s5title {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+    font-family: Fraunces;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 0.3em;
+    color: hsl(210, 4%, 67%);
+
+    /* - Very dark desaturated blue: hsl(212, 27%, 19%)
+    - Very dark grayish blue: hsl(213, 9%, 39%)
+    - Dark grayish blue: hsl(232, 10%, 55%)
+    - Grayish blue: hsl(210, 4%, 67%) */
+
+}
+
+.s5bios {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.s5bio {
+    margin: 0;
+    padding: 20px;
+}
+
+.s5bio img {
+    margin: 0;
+    padding: 0;
+    border-radius: 10em;
+    height: 90px;
+}
+
+.s5bio p {
+    color: hsl(213, 9%, 39%);
+    font-family: Barlow;
+}
+
+.s5bio h5 {
+    color: hsl(212, 27%, 19%);
+}
+
+.s5bio h6 {
+
+    color: hsl(210, 4%, 67%);
+    font-family: Barlow;
+}
+
+
+.section6 {
+    background-color: blueviolet;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.s6image {
+    width: 25%;
+}
+
+.s6image img {
+    width: 100%;
+    display: block;
+
+}
+
+/* footer */
+.section7 {
+    padding: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+    background-color: hsl(168, 39%, 64%);
+    display: flex;
+    justify-content: center;
+    color: hsl(168, 34%, 41%)
+}
+
+/* - Very dark desaturated blue: hsl(212, 27%, 19%)
+- Very dark grayish blue: hsl(213, 9%, 39%)
+- Dark grayish blue: hsl(232, 10%, 55%)
+- Grayish blue: hsl(210, 4%, 67%)
+- White: hsl(0, 0%, 100%) */
+
+.section7 .contents {
+    /* background-color: blue; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+ul.footername {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    /* background-color: brown; */
+
+}
+
+.footerlinks a:hover {
+    color: white;
+}
+
+.footersocials img:hover {
+    /* filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%); */
+    filter: brightness(0) invert(1);
+}
+
+ul.footerlinks {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    /* background-color: brown; */
+
+}
+
+ul.footersocials {
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* background-color: brown; */
+}
+
+.section7 li {
+    display: block;
+    float: left;
+}
+
+
+ul.footername li a {
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: hsl(168, 35%, 32%);
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+ul.footerlinks li a {
+    text-align: center;
+    padding: 34px;
+    text-decoration: none;
+    color: hsl(168, 34%, 41%)
+}
+
+ul.footersocials li a {
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    color: hsl(168, 34%, 41%)
+}
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Responsiveness for midscreen - changes 
+    positioning of graphic design and photography 
+    text.*/
+@media screen and (max-width:1100px) {
+
+    /* Graphic design and photography */
+    .gdptext {
+        position: absolute;
+        /* padding: 40px; */
+        padding-bottom: 50px;
+        top: 50%;
+        max-width: 420px;
+    }
+
+
+}
+
+/* Responsiveness for midscreen - changes 
+    positioning of graphic design and photography 
+    text.*/
+@media screen and (max-width:900px) {
+
+    /* Graphic design and photography */
+    .eggcupdesc {
+        /* padding: 40px; */
+        padding-left: 25px;
+        padding-right: 25px;
+        /* max-width: 420px; */
+    }
+}
+
+
+/* arrow disappear */
+
+@media screen and (max-width:800px) {
+    .s1arrow {
+        /* background-color: purple; */
+        position: absolute;
+        top: 330px;
+        display: flex;
+        justify-content: center;
+        width: 0%;
+    }
+}
+
+/* Responsiveness for midscreen - change 2
+    :positioning of graphic design and photography 
+    text.*/
+@media screen and (max-width:810px) {
+
+    /* Graphic design and photography */
+    .gdptext {
+        position: absolute;
+        /* padding: 40px; */
+        padding-bottom: 50px;
+        top: 45%;
+        max-width: 420px;
+    }
+
+    .gdptext h4 {
+        margin-bottom: 20px;
+        font-size: 26px;
+        /* font-family: 'Courier New', Courier, monospace; */
+
+        font-weight: 1000px;
+    }
+
+    .gdptext p {
+        font-size: 16px;
+        font-weight: 900px;
+        font-family: Barlow !important;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 0px;
+    }
+
+}
+
+
+/* All services inc egg, cup, graphic design 
+    and photography to vertical */
+@media screen and (max-width:722px) {
+
+    .section2 {
+        background-color: blue;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* EGG | Tansform your brand */
+    /* text */
+    .section2a {
+        background-color: white;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Image container */
+    .section2b {
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+        width: fit-content;
+        background-color: hsl(51, 100%, 49%);
+        font-size: 0;
+    }
+
+    /* Egg image */
+    .section2b img {
+        /* min-width: 927px; */
+        /* min-height: 100%;
+        min-width: 100%; */
+        width: 100%;
+        height: 100%;
+        /* ie8 */
+    }
+
+    /* Cup | Stand out to the right audience  */
+    .section3 {
+        background-color: blue;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* image container */
+    .section3a {
+        background-color: pink;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        max-width: 100%;
+        height: auto;
+        font-size: 0;
+    }
+
+    .section3a img {
+        max-width: 100%;
+        height: auto;
+        width: auto\9;
+        /* ie8 */
+    }
+
+    /* text container */
+    .section3b {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* container - graphic design and photography */
+    .section4 {
+        background-color: darkblue;
+        margin: 0;
+        padding: 0;
+        /* padding-bottom: 20px; */
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    /* container - graphic design  */
+    .section4a {
+        position: relative;
+        text-align: center;
+        background-color: paleturquoise;
+        background-image: url(images/desktop/image-graphic-design.jpg);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section4a img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        width: auto\9;
+    }
+
+    /* container - photography  */
+    .section4b {
+        position: relative;
+        text-align: center;
+        background-image: url(images/desktop/image-photography.jpg);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section4b img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        width: auto\9;
+    }
+
+    /* Graphic design and photography text - reset
+        to original layout */
+
+
+    .gdptext {
+        position: absolute;
+        /* padding: 40px; */
+        padding-bottom: 50px;
+        top: 60%;
+        max-width: 420px;
+    }
+
+    .gdptext h4 {
+        font-size: 26px;
+        /* font-family: 'Courier New', Courier, monospace; */
+
+        font-weight: 1000px;
+    }
+
+    .gdptext p {
+        font-size: 16px;
+        font-weight: 900px;
+        font-family: Barlow !important;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+
+}
+
+/* Responsiveness for mobile screen */
+@media screen and (max-width:545px) {
+    body {
+        background: black;
+
+    }
+
+    .section1 {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        background: honeydew;
+        height: auto;
+        min-height: 300px;
+    }
+
+    .section1 img {
+        position: relative;
+        max-width: 100%;
+        min-height: 300px;
+        width: auto\9;
+        display: block;
+    }
+
+
+    .section1 .menu {
+        display: none;
+    }
+
+    .s1text {
+        color: white;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        position: absolute;
+        top: 120px;
+        text-align: center;
+        /* background-color: blueviolet; */
+        font-size: 20px;
+        letter-spacing: 0.3em;
+    }
+
+    .gdptext {
+        position: absolute;
+        /* padding: 40px; */
+        padding-bottom: 20px;
+        top: 45%;
+        max-width: 420px;
+
+    }
+
+    .gdptext h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        /* font-family: 'Courier New', Courier, monospace; */
+        font-weight: 1000px;
+    }
+
+    .gdptext p {
+        font-size: 14px;
+        font-weight: 900px;
+        font-family: Barlow !important;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .s5bios {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Footer internal links */
+    ul.footerlinks li a {
+        text-align: center;
+        padding: 25px;
+        text-decoration: none;
+        color: hsl(168, 34%, 41%)
+    }
+
+
+}
